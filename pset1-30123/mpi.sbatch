@@ -1,3 +1,12 @@
+#!/bin/bash
+
+#SBATCH --job-name=mpi
+#SBATCH --output=mpi.out
+#SBATCH --ntasks=4
+#SBATCH --partition=broadwl
+#SBATCH --constraint=fdr
+#SBATCH --account=macs30123
+
 # Load Python and MPI modules
 module load cuda
 module load python/anaconda-2019.03
