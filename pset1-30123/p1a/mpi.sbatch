@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=mpi
-#SBATCH --output=mpi.out
+#SBATCH --output=p1a.out
 #SBATCH --ntasks=1
 #SBATCH --partition=broadwl
 #SBATCH --constraint=fdr
