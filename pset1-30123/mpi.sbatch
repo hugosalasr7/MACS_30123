@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=p1a
+#SBATCH --job-name=mpi
 #SBATCH --output=mpi.out
 #SBATCH --ntasks=1
 #SBATCH --partition=broadwl
