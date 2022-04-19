@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#SBATCH --job-name=mpi
-#SBATCH --output=mpi.out
-#SBATCH --ntasks=4
+#SBATCH --job-name=p1a
+#SBATCH --ntasks=1
 #SBATCH --partition=broadwl
 #SBATCH --constraint=fdr
 #SBATCH --account=macs30123
