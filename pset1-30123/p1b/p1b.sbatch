@@ -19,3 +19,5 @@ done
 
 # Wait until all simultaneous mpiruns are done
 wait
+
+mpirun -n 1 python3 ./p1b_plot.py >> ./plot.out 
