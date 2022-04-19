@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=mpi_multi_job
-#SBATCH --ntasks=5
+#SBATCH --ntasks=20
 #SBATCH --partition=broadwl
 #SBATCH --constraint=fdr
 #SBATCH --account=macs30123
@@ -14,7 +14,7 @@ module load intelmpi/2018.2.199+intel-18.0
 
 for i in {1..20}
 do
-    mpirun -n $i python3 ./p1b.py > ./p1b.out 
+    mpirun -n $i python3 ./p1b.py > ./p1b_rv.out 
 done
 
 # Wait until all simultaneous mpiruns are done
