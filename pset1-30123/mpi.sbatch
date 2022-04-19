@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=p1a
+#SBATCH --output=p1a.out
 #SBATCH --ntasks=1
 #SBATCH --partition=broadwl
 #SBATCH --constraint=fdr
