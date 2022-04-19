@@ -17,4 +17,4 @@ pip install --user numba scipy
 # Run the python program with mpirun. The -n flag is not required;
 # mpirun will automatically figure out the best configuration from the
 # Slurm environment variables.
-mpirun python3 ./p1a.py
+mpirun python3 ./p1a.py > ./p1a.out
