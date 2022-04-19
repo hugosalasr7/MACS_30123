@@ -14,7 +14,7 @@ module load intelmpi/2018.2.199+intel-18.0
 
 for i in {1..20}
 do
-    mpirun -n $i python3 ./p1b.py > ./p1b_rv.out 
+    mpirun -n $i python3 ./p1b.py >> ./p1b_rv.out 
 done
 
 # Wait until all simultaneous mpiruns are done
