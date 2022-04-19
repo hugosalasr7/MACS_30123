@@ -54,7 +54,6 @@ def simulate_health(rho = 0.5, mu = 3.0, sigma = 1.0, numba = False):
 #Without Numba
 start = time.time()
 simulate_health(numba = False)
-print('Juicy juice')
 end = time.time()
 print("Without Numba: elapsed seconds = %s" % (end - start))
 
