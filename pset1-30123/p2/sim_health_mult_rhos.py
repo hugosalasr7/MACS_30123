@@ -59,7 +59,7 @@ def find_opt_rho():
     ax.plot(rhos_sick_all[:,0], rhos_sick_all[:,1])
     plt.xlabel('Rho value')
     plt.title('Avg number of periods that it takes to negative health')
-    plt.savefig("seconds_per_core.png")
+    plt.savefig("rho_vs_sick.png")
 
     max_sick = max(rhos_sick_all[:,1])
     opt_rho = rhos_sick_all[rhos_sick_all[:,1]==max_sick, 0][0]
