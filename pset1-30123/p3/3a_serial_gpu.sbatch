@@ -12,8 +12,8 @@
 module load cuda
 module load python/anaconda-2019.03
 
-python3 ./raster_serial.py >> ./serial.out
+python3 ./raster_serial.py >> ./serial_3a.out
 
 wait 
 
-python3 ./raster_gpu.py >> ./serial.out
+python3 ./raster_gpu.py >> ./gpu_3a.out

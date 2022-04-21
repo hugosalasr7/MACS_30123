@@ -12,6 +12,6 @@ red = band4.read(1).astype('float64')
 nir = band5.read(1).astype('float64')
 # NDVI calculation
 ndvi = (nir - red) / (nir + red)
-print(ndvi)
+#print(ndvi)
 end = time.time()
 print("Elapsed seconds = %s" % (end - start))

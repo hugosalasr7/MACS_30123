@@ -24,6 +24,6 @@ nir_dev = cl_array.to_device(queue, nir)
 ndvi_dev = (nir_dev - red_dev) / (nir_dev + red_dev)
 ndvi = ndvi_dev.get()
 
-print(ndvi)
+#print(ndvi)
 end = time.time()
 print("GPU: Elapsed seconds = %s" % (end - start))
